@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide" id="slide1">
+                <img src="images/pexels-logan-primm-2079618-3706960.jpg" alt="Machu Picchu">
+                <div class="caption">Machu Picchu</div>
+            </div>
+            <div class="slide" id="slide2">
+                <img src="images/pexels-pixabay-532826.jpg" alt="Eiffel Tower">
+                <div class="caption">Eiffel Tower</div>
+            </div>
+            <div class="slide" id="slide3">
+                <img src="images/pexels-tomfisk-1653823.jpg" alt="Great Wall of China">
+                <div class="caption">Great Wall of China</div>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
